@@ -38,38 +38,7 @@ Project Steps
 | Naive Bayes | 89%      |
 | SVM         | 88%      |
 
-(Add results after training your models)
-
----
-
- 📅 Project Structure
-
-```
-news-article-classifier/
-│
-├── data/
-│   └── news.csv                # Dataset (optional to push to GitHub)
-│
-├── notebook/
-│   └── News_Classifier.ipynb   # Jupyter notebook with full code
-│
-├── src/                           # (Optional) Python scripts for modular code
-│   ├── preprocess.py
-│   ├── train_model.py
-│   └── evaluate.py
-│
-├── outputs/
-│   ├── confusion_matrix.png    # Output plots (optional)
-│   └── model.pkl               # Saved model file (optional)
-│
-├── README.md                      # Project documentation
-├── requirements.txt               # List of dependencies
-└── .gitignore                  # Files to ignore
-```
-
----
-
-## 📊 Sample Code Snippet
+ Sample Code Snippet
 
 ```python
 from sklearn.naive_bayes import MultinomialNB
@@ -98,17 +67,8 @@ svm = LinearSVC()
 svm.fit(X_train, y_train)
 ```
 
----
 
-## 🙌 Author
+Author
 
 Ayush Sharma
 
----
-
-## 🛠️ To Do (Optional Improvements)
-
-* Add confusion matrix and plots
-* Hyperparameter tuning
-* Save and load model using `joblib`
-* Add Streamlit or Gradio interface for deployment
