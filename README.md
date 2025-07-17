@@ -1,7 +1,8 @@
-📰 News Article Classifier
+News Article Classifier
 
 A Machine Learning project that classifies news articles into categories using Naive Bayes and Support Vector Machine (SVM). This is built using Python, Scikit-learn, and TF-IDF vectorization
- 📂 Dataset
+ 
+Dataset
 * Source: https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
 * Format: CSV with the following columns:
 
