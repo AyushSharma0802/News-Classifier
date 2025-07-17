@@ -26,8 +26,9 @@ Project Steps
 5. Model Training using:
 
      Multinomial Naive Bayes
-     Linear Support Vector Machine (SVM)
-6. Evaluation: Accuracy and classification report
+     And
+     Support Vector Machine (SVM)
+7. Evaluation: Accuracy and classification report
 
 
 
